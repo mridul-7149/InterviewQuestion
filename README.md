@@ -18,7 +18,9 @@ Model: Responsible for creating the data model and implementing business logic
 View: Represents the user interface (UI)
 Controller: Handles user input and interactions. It acts as an intermediary between the Model and View
 
-**Question  4 What is middileware **
+**Question  4 What is middileware** 
 
 In ASP.NET Core, middleware is a software component that processes HTTP requests and responses. During this processing, middleware components are arranged in a sequence called a pipeline, which follows a chaining system. Each middleware can handle the request and response or pass control to the next middleware in the pipeline.
+
+Question **What Is Dependency Injection   and its  Types**
 
