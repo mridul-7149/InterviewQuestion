@@ -23,4 +23,8 @@ Controller: Handles user input and interactions. It acts as an intermediary betw
 In ASP.NET Core, middleware is a software component that processes HTTP requests and responses. During this processing, middleware components are arranged in a sequence called a pipeline, which follows a chaining system. Each middleware can handle the request and response or pass control to the next middleware in the pipeline.
 
 Question **What Is Dependency Injection   and its  Types**
+In ASP.NET Core, Dependency Injection (DI) is a design pattern that allows for decoupling of components, making the application more modular, testable, and maintainable
+**Constructor Injection (Most Common in ASP.NET Core)
+Setter Injection (Property Injection)
+Method Injection**
 
