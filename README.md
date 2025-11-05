@@ -30,5 +30,5 @@ Method Injection**
 
 Q. **Kestral Server**
 Kestrel is a cross-platform web server for ASP.NET Core. Kestrel is the web server that's included and enabled by default in ASP.NET Core project templates
-in  ASP.Net Core by Defualt Use Kestrel Server when not host on IIS In Program.cs file UseKestrel Internally by this  line  var biulder =WebApplication.CreateBuilder(ags)
-and  Run the  Kestrel Server  by aap.Run()
+in  ASP.Net Core by Defualt Use Kestrel Server when not host on IIS In Program.cs file UseKestrel Internally by this  line  **var biulder =WebApplication.CreateBuilder(ags)**
+and  Run the  Kestrel Server  by **aap.Run()**
