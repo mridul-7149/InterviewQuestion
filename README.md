@@ -32,3 +32,14 @@ Q. **Kestral Server**
 Kestrel is a cross-platform web server for ASP.NET Core. Kestrel is the web server that's included and enabled by default in ASP.NET Core project templates
 in  ASP.Net Core by Defualt Use Kestrel Server when not host on IIS In Program.cs file UseKestrel Internally by this  line  **var biulder =WebApplication.CreateBuilder(ags)**
 and  Run the  Kestrel Server  by **aap.Run()**
+
+**Q Static in C#**
+In C#, the static keyword is used to define members that have only one copy for the entire class.
+A static member belongs directly to the class, not to any specific object.
+It can be accessed without creating an object of the class
+it 's Uses 
+**Static Variable (Field)**                  A variable that has only one copy for the entire class.
+**Static Method**                        A method that can be called without creating an object
+**Static Class**                         A class that cannot be instantiated (no object), and only contains static members
+**Static Constructor**                   A special constructor that runs once automatically before the first use of the class.
+
