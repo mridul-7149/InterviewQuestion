@@ -144,6 +144,11 @@ app.Run();
             <li><b>Static Constructor:</b> Executes once before first use</li>
         </ul>
     </div>
-
+<div class="question">Question  Define CORS</div>
+     <div class="answer">
+         The CORS (Cross origin resource sharing) a browser Security machanism that allow a web application runing one origin (domain,port,protocal) to another  origin <br>
+         <b>Apply In ASP.Net Core :</b> builder.services.AddCors(option=>{option.AddPolicy("PolicyName",op=>{op.WithOrigins("url").AllowHeader})})
+     </div>
 </body>
 </html>
+
